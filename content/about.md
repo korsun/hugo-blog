@@ -6,4 +6,4 @@
 
 Контактная информация находится внизу страницы.
 
-{{< figure src="/self_.jpg" alt="Портрет нас с мотоциклом" class="center" >}}
+{{< figure src="/self.jpg" alt="Портрет нас с мотоциклом" class="center" >}}
