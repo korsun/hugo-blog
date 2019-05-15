@@ -9,7 +9,6 @@ $(document).ready(function () {
   Even.fancybox();
   Even.changeLocationHref();
   Even.pluralizeRussian();
-  Even.formatPostDate();
 });
 
 Even.responsiveTable();
