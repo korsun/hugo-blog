@@ -6,7 +6,7 @@ slug = "one-floor-brazil"
 tags = ["photo"]
 title = "Одноэтажная Бразилия"
 summary = '![Local Picture](/3.jpg "Еще Одна Картинка") Иногда Бразилия начинает напоминать Россию'
-draft = false
+draft = true
 
 +++
 
