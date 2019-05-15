@@ -1,0 +1,17 @@
+// ==============================
+// Social
+// =============================
+
+.social-links {
+  text-align: center;
+
+  .iconfont {
+    font-size: $social-icon-font-size;
+
+    @include hover;
+
+    & + .iconfont {
+      margin-left: $social-link-margin-left;
+    }
+  }
+}

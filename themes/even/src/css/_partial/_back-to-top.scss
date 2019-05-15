@@ -1,0 +1,28 @@
+// ==============================
+// Back to top
+// =============================
+
+.back-to-top {
+  display: none;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+  transition-duration: 0.3s;
+  z-index: 10;
+  border: 0;
+  outline: 0;
+  font-size: $back-to-top-font-size;
+  background-color: transparent;
+
+  &:hover {
+    transform: translateY(-5px); 
+  }
+}
+
+@include max-screen() {
+  .back-to-top {
+    display: none !important;
+  }
+}

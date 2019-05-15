@@ -1,0 +1,19 @@
+// ==============================
+// 404
+// =============================
+
+.not-found {
+  text-align: center;
+  color: $post-font-color;
+
+  .error-link {
+    margin-top: 2rem;
+    color: $theme-color;
+    font-family: $global-serif-font-family;
+    font-size: 1.1em;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

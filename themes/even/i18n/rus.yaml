@@ -1,0 +1,97 @@
+# ===== title =====
+archive:
+  other: "Архив"
+
+tags:
+  other: "Метки"
+
+categories:
+  other: "Темы"
+
+# ===== footer =====
+powered:
+  other: "Работает на %s"
+
+theme:
+  other: "Тема"
+
+siteUV:
+  other: "site uv: %s"
+
+sitePV:
+  other: "site pv: %s"
+
+pagePV:
+  other: "%s раз прочитано"
+
+# ===== post =====
+prevPage:
+  other: "На страницу назад"
+
+nextPage:
+  other: "На страницу вперед"
+
+prevPost:
+  other: "Назад"
+
+nextPost:
+  other: "Вперед"
+
+toc:
+  other: "Оглавление"
+
+readMore:
+  other: "Показать полностью"
+
+reward:
+  other: "Reward"
+
+rewardAlipay:
+  other: "alipay"
+
+rewardWechat:
+  other: "wechat"
+
+wordCount:
+  other: "{{ .Count }}"
+
+readingTime:
+  other: "{{ .Count }}"
+
+outdatedInfoWarningBefore:
+  other: "[ВНИМАНИЕ] Обновлено "
+
+outdatedInfoWarningAfter:
+  other: "Эта статья может содержать устаревшую информацию"
+
+# ===== content license =====
+author:
+  other: "Автор"
+
+lastMod:
+  other: "LastMod"
+
+markdown:
+  other: "Markdown"
+
+seeMarkDown:
+  other: "Версия Markdown »"
+
+license:
+  other: "Лицензия"
+
+# ===== counter =====
+archiveCounter:
+  other: "Итого {{ .Count }}"
+
+tagCounter:
+  other: "Итого {{ .Count }}"
+
+zeroTagCounter:
+  other: "Нет меток"
+
+categoryCounter:
+  other: "Итого {{ .Count }}"
+
+zeroCategoryCounter:
+  other: "Нет тем"

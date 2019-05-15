@@ -1,0 +1,13 @@
+<article class="post">
+  <!-- Post header -->
+  {{- partial "post/post-header.html" . -}}
+  <!-- Content -->
+  <div class="post-content">
+    <div class="post-summary">
+      {{ .Summary }}
+    </div>
+    <div class="read-more">
+      <a href="{{ .URL }}" class="read-more-link">{{ T "readMore" }} ~</a>
+    </div>
+  </div>
+</article>

@@ -1,0 +1,22 @@
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    {{ range .Site.Menus.main -}}
+      <li class="menu-item">
+        <a class="menu-item-link" href="{{ .URL | safeURL }}">{{ .Name }}</a>
+      </li>
+    {{- end }}
+  </ul>
+</nav>
+<div>
+<a href="/" target="_blank" rel="external" class="bg-location" id="bg-location">
+  Где&nbsp;это&nbsp;снято?
+  <i class="iconfont icon-location"></i>
+</a>
+<span class="logo">
+  {{- if .Site.Params.logoTitle -}}
+  {{ .Site.Params.logoTitle }}
+  {{- else -}}
+  {{ .Site.Title }}
+  {{- end -}}
+</span>
+</div>

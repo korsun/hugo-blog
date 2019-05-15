@@ -1,0 +1,61 @@
+// ==============================
+// Header
+// ==============================
+
+.header {
+  @import '_header/menu';
+}
+
+.background {
+  height: 450px;
+  background-color: $dark-gray;
+  background-image: $path-to-background;
+  background-size: cover;
+  background-position: 50% 40%;
+  border-bottom: 3px solid $theme-color;
+
+  @include max-screen() {
+    background-image: $path-to-background-mobile;
+  }
+}
+
+a.bg-location {
+  position: absolute;
+  top: 406px;
+  left: 32px;
+  display: inline-block;
+  color: $deputy-color;
+  font-size: $bg-location-font-size;
+  font-weight: 200;
+
+  &:hover {
+    color: $white;
+  }
+
+  @include max-screen() {
+    top: 418px;
+    left: auto;
+    right: 15px;
+    color: $deputy-color;
+  }
+}
+
+.logo {
+  position: absolute;
+  top: 350px; // yes these are magic numbers
+  left: 30px; // nothing to do with alignment
+  color: white;
+  font-size: 32px;
+  font-weight: 200;
+  color: $white;
+
+  @include max-screen() {
+    width: calc(100% - 40px);
+    padding: 20px;
+    top: calc(450px / 2 - 130px / 2);
+    left: auto;
+    font-size: 30px;
+    text-align: center;
+    line-height: 37px;
+  }
+}

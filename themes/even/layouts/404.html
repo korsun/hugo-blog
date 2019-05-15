@@ -1,0 +1,9 @@
+{{- define "title" }}404 page not found - {{ .Site.Title }}{{ end -}}
+
+{{- define "content" -}}
+<div class="not-found">
+  <h1>404</h1>
+  <p>Где-то ошибка. Такой страницы нет</p>
+  <a href="{{ "/" | relLangURL }}" class="error-link">~ На главную ~</a>
+</div>
+{{- end -}}

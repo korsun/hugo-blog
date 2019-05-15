@@ -1,0 +1,60 @@
+// ==============================
+// Mobile Navbar
+// ==============================
+
+.mobile-navbar {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 300ms ease;
+  z-index: 99;
+
+  &.fixed-open {
+    transform: translate3d(180px, 0px, 0px);
+  }
+
+  .mobile-navbar-icon {
+    color: $white;
+    height: $mobile-navbar-height;
+    width: $mobile-navbar-height;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    transition: background 0.5s;
+
+    @include mobile-menu-icon();
+  }
+}
+
+.mobile-menu {
+  background-color: rgba($deputy-color, 0.9);
+
+  .mobile-menu-list {
+    position: relative;
+    list-style: none;
+    margin-top: 50px;
+    padding: 0;
+    border-top: 1px solid $deputy-color;
+
+    .mobile-menu-item {
+      padding: 10px 30px;
+      border-bottom: 1px solid $deputy-color;
+    }
+
+    a {
+      font-size: 18px;
+      font-family: $global-serif-font-family;
+    }
+  }
+}
+
+@include max-screen() {
+  .mobile-navbar {
+    display: block;
+  }
+
+  .mobile-header-logo {
+      margin-right: 0;
+    }
+}
